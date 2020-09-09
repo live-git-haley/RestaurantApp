@@ -1,0 +1,110 @@
+.table-fixed tbody {
+    height: 270px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+
+    /* &::after {
+        content: '';
+        clear: both;
+        display: block;
+    } */
+}
+ 
+#ReviewContainer{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+#ReviewsInfoCol{
+    background-color: #FFF955;
+
+    border: 10px solid black;
+}
+
+#ReviewsTitle{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    color: #FFFFFF;
+    background: #FF5931;
+    background: -moz-linear-gradient(left, #FF5931 0%, #FFF955 69%, #FFF955 100%);
+    background: -webkit-linear-gradient(left, #FF5931 0%, #FFF955 69%, #FFF955 100%);
+    background: linear-gradient(to right, #FF5931 0%, #FFF955 69%, #FFF955 100%);
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;  
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0px;
+    border: 5px ridge #000000;
+   
+}
+
+.ReviewsHeadCells{
+
+    background: #FF5931;
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;  
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: 0px;
+
+}
+
+.ReviewCells{
+    background: #FFB94F;
+
+
+}
+
+.table-responsive{
+    border: 5px ridge #000000;
+    background: #FF5931;
+    margin-bottom: 0;
+    height: 20%;
+
+
+
+}
+
+
+
+#form{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.ReviewLabel{
+    background: #FF5931;
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;  
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: 0px;
+
+}
