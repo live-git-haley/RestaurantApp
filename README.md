@@ -6,3 +6,4 @@ Restaurant application utilizing React on the front end and Java/mySQL for the b
 -----Required installations-----
 npm install axios 
 npm install bootstrap
+**node modules not included, must install and add to project path
